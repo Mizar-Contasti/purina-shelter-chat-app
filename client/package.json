@@ -1,5 +1,6 @@
 {
   "name": "client",
+  "homepage": "http://your-new-domain.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
