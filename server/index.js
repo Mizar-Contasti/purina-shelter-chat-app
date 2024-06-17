@@ -63,7 +63,7 @@ app.get("/proxy/transcripts", async (req, res) => {
   try {
     const sessionId = req.query.id;
     const response = await axios.get(
-      "https://chat.botsmexico.com/webhook-chatbot/purina-bot/api/api.php/transcripts",
+      "https://nerdery-tech-petfinder-poc.uc.r.appspot.com/api",
       {
         params: { session_id: sessionId },
       }
